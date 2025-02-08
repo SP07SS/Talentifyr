@@ -1,49 +1,124 @@
-/* General styles */
-body {
-    font-family: Arial, sans-serif;
+/* Basic Reset */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
 header {
-    background-color: #333;
-    color: white;
-    padding: 10px;
+    background: #007bff;
+    color: #fff;
+    padding: 10px 0;
 }
 
 nav ul {
+    list-style: none;
     display: flex;
-    justify-content: space-around;
-    list-style-type: none;
+    justify-content: center;
 }
 
-nav a {
-    color: white;
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
-    padding: 8px;
+    font-weight: bold;
 }
 
+/* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 0;
-    background-color: #f4f4f4;
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
 }
 
 .hero h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
+    font-size: 2.5em;
 }
 
 .hero p {
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    margin: 20px 0;
 }
 
 .hero .button {
+    background: #fff;
+    color: #007bff;
     padding: 10px 20px;
-    background-color: #007BFF;
-    color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+
+/* Trending Jobs Section */
+.trending-jobs {
+    padding: 20px;
+    background: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.trending-jobs h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.job-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+.job-card h3 {
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    margin: 5px 0;
+}
+
+.job-card .button {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #007bff;
+    color: #fff;
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
 }
