@@ -98,32 +98,6 @@ body {
     background: var(--bs-primary);
 }
 
-/* Topbar Styles */
-.topbar .dropdown-toggle::after {
-    border: none;
-    content: "\f107";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    vertical-align: middle;
-    margin-left: 8px;
-    color: var(--bs-primary);
-}
-
-.topbar .dropdown .dropdown-menu a:hover {
-    background: var(--bs-primary);
-    color: var(--bs-white);
-}
-
-.topbar .dropdown .dropdown-menu {
-    transform: rotateX(0deg);
-    visibility: visible;
-    background: var(--bs-light);
-    padding-top: 11px;
-    border: 0;
-    transition: .5s;
-    opacity: 1;
-}
-
 /* Navbar Styles */
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Roboto', sans-serif;
@@ -184,5 +158,32 @@ body {
     transition: .5s;
 }
 
-@media (max-width: 991.98px) {
-    .sticky-top.navbar
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #007bff;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero .button {
+    background: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Job Listing Styles */
+.job-listing {
+    padding: 20px;
+    background
