@@ -1,4 +1,3 @@
-mkdir backend
-cd backend
-npm init -y
-npm install express mongoose jsonwebtoken bcryptjs cors
+cd job-portal
+mkdir frontend
+cd frontend
