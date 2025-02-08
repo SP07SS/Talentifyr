@@ -1,12 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
+    <meta property="og:title" content="Job Portal" />
+    <meta property="og:description" content="Find your dream job today!" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon.ico" />
     <title>Job Portal</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <!-- Header Section -->
     <header>
         <nav>
             <ul>
@@ -18,14 +25,67 @@
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Welcome to the Job Portal</h1>
-        <p>Find your dream job today!</p>
-        <a href="jobs.html" class="button">Explore Jobs</a>
-    </section>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h1>Welcome to the Job Portal</h1>
+            <p>Find your dream job today!</p>
+            <a href="jobs.html" class="button">Explore Jobs</a>
+        </section>
 
+        <!-- Trending Jobs Section -->
+        <section class="trending-jobs">
+            <h2>Trending Jobs</h2>
+            <div class="job-list">
+                <div class="job-card">
+                    <h3>Software Engineer</h3>
+                    <p>Company: Tech Solutions</p>
+                    <p>Location: Remote</p>
+                    <p>Salary: $80,000/year</p>
+                    <a href="job-details.html" class="button">View Details</a>
+                </div>
+                <div class="job-card">
+                    <h3>Data Analyst</h3>
+                    <p>Company: Data Corp</p>
+                    <p>Location: New York</p>
+                    <p>Salary: $70,000/year</p>
+                    <a href="job-details.html" class="button">View Details</a>
+                </div>
+                <div class="job-card">
+                    <h3>Product Manager</h3>
+                    <p>Company: Innovative Solutions</p>
+                    <p>Location: San Francisco</p>
+                    <p>Salary: $95,000/year</p>
+                    <a href="job-details.html" class="button">View Details</a>
+                </div>
+                <div class="job-card">
+                    <h3>Graphic Designer</h3>
+                    <p>Company: Creative Minds</p>
+                    <p>Location: Remote</p>
+                    <p>Salary: $60,000/year</p>
+                    <a href="job-details.html" class="button">View Details</a>
+                </div>
+                <!-- Add more job cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
     <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
         <p>&copy; 2025 Job Portal</p>
     </footer>
+
+    <!-- JavaScript for interactivity -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Your JavaScript code here
+        });
+    </script>
 </body>
 </html>
