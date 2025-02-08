@@ -1,0 +1,3 @@
+cd job-portal
+mkdir frontend
+cd frontend
